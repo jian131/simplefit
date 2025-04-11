@@ -19,6 +19,8 @@ firebase-bom = "32.7.2"
 mpandroidchart = "v3.1.0"
 facebook-login = "16.3.0"
 google-auth = "21.0.0"
+security-crypto = "1.0.0"
+room-common-jvm = "2.7.0"
 
 [libraries]
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
@@ -65,6 +67,8 @@ auth-google = { group = "com.google.android.gms", name = "play-services-auth", v
 
 # Charts
 mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+security-crypto = { group = "androidx.security", name = "security-crypto", version.ref = "security-crypto" }
+room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "room-common-jvm" }
 
 
 

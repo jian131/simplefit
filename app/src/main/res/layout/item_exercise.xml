@@ -1,6 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_exercise"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/colorCardBackground"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:rippleColor="@color/colorRipple">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_exercise"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/exercise_image"
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transition_exercise_image"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/default_exercise" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient_exercise_item"
+            app:layout_constraintBottom_toBottomOf="@id/image_exercise"
+            app:layout_constraintEnd_toEndOf="@id/image_exercise"
+            app:layout_constraintStart_toStartOf="@id/image_exercise" />
+
+        <TextView
+            android:id="@+id/text_exercise_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/image_exercise"
+            app:layout_constraintEnd_toStartOf="@+id/button_favorite"
+            app:layout_constraintStart_toStartOf="@+id/image_exercise"
+            tools:text="Barbell Bench Press" />
+
+        <ImageButton
+            android:id="@+id/button_favorite"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/favorite_exercise"
+            android:padding="6dp"
+            app:layout_constraintBottom_toBottomOf="@+id/image_exercise"
+            app:layout_constraintEnd_toEndOf="@+id/image_exercise"
+            app:srcCompat="@drawable/ic_favorite_border"
+            app:tint="@android:color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/image_exercise">
+
+            <TextView
+                android:id="@+id/text_muscle_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="12sp"
+                tools:text="Chest" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home"
         android:title="@string/title_home" />
+
     <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard"
-        android:title="@string/title_dashboard" />
+        android:id="@+id/navigation_exercises"
+        android:icon="@drawable/ic_fitness"
+        android:title="@string/title_exercises" />
+
     <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications"
-        android:title="@string/title_notifications" />
+        android:id="@+id/navigation_routines"
+        android:icon="@drawable/ic_routine"
+        android:title="@string/title_routines" />
+
+    <item
+        android:id="@+id/navigation_progress"
+        android:icon="@drawable/ic_chart"
+        android:title="@string/title_progress" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/menu_profile" />
+
+    <!-- Removed navigation_workout_history since BottomNavigationView supports max 5 items -->
 </menu>

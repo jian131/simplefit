@@ -1,0 +1,310 @@
+{
+  "barbell_bench_press": {
+    "name": "Barbell Bench Press",
+    "steps": [
+      "Nằm ngửa trên ghế phẳng với hai chân đặt chắc chắn trên mặt đất.",
+      "Nắm thanh tạ với khoảng cách rộng hơn vai một chút.",
+      "Nâng thanh tạ ra khỏi giá và đưa về phía trên ngực, giữ thẳng cánh tay.",
+      "Hạ thanh tạ từ từ xuống ngực (khoảng giữa ngực).",
+      "Đẩy thanh tạ lên cho đến khi cánh tay duỗi thẳng, giữ khuỷu tay không khóa hoàn toàn.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng dưới áp sát vào ghế, không uốn cong quá mức.",
+      "Hít vào khi hạ thanh tạ xuống, thở ra khi đẩy lên.",
+      "Giữ vai ép xuống và ra sau trong suốt động tác."
+    ],
+    "video": "https://www.youtube.com/watch?v=rT7DgCr-3pg"
+  },
+  "barbell_squat": {
+    "name": "Barbell Squat",
+    "steps": [
+      "Đặt thanh tạ lên vai sau, đặt tay cầm thanh tạ với tư thế thoải mái.",
+      "Đặt chân rộng bằng vai hoặc hơn một chút, chân hơi hướng ra ngoài.",
+      "Giữ lưng thẳng, ngực hướng ra trước, nhìn thẳng.",
+      "Hạ người xuống bằng cách gập đầu gối và hông, như thể đang ngồi xuống ghế.",
+      "Hạ xuống cho đến khi đùi song song hoặc thấp hơn mặt đất.",
+      "Đẩy người lên từ gót chân đến khi chân duỗi thẳng trở lại tư thế ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng thẳng trong suốt động tác, không gập lưng.",
+      "Đảm bảo đầu gối không vượt qua mũi chân khi squat xuống.",
+      "Hít vào khi hạ người xuống, thở ra khi đẩy lên.",
+      "Đẩy từ gót chân, không nhón mũi chân."
+    ],
+    "video": "https://www.youtube.com/watch?v=bEv6CCg2BC8"
+  },
+  "pull_up": {
+    "name": "Pull-up",
+    "steps": [
+      "Nắm xà đơn với khoảng cách rộng hơn vai, lòng bàn tay hướng ra ngoài.",
+      "Treo người với cánh tay duỗi thẳng.",
+      "Kéo cơ thể lên cho đến khi cằm vượt qua thanh xà.",
+      "Hạ người xuống từ từ với động tác có kiểm soát cho đến khi cánh tay duỗi thẳng.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Tránh đung đưa cơ thể để tạo đà.",
+      "Tập trung vào việc sử dụng cơ lưng để kéo người lên, không chỉ dùng cánh tay.",
+      "Thở ra khi kéo lên, hít vào khi hạ xuống.",
+      "Nếu chưa làm được, có thể dùng dây hỗ trợ hoặc thực hiện phiên bản hỗ trợ."
+    ],
+    "video": "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+  },
+  "barbell_deadlift": {
+    "name": "Barbell Deadlift",
+    "steps": [
+      "Đứng với chân rộng bằng vai, mũi chân hướng thẳng hoặc hơi ra ngoài.",
+      "Thanh tạ đặt trên sàn, ngang giữa bàn chân.",
+      "Hạ người xuống bằng cách gập hông và đầu gối, nắm thanh tạ với khoảng cách rộng bằng vai.",
+      "Giữ lưng thẳng, ngực hướng lên, đầu ở vị trí trung tính.",
+      "Nâng thanh tạ bằng cách duỗi hông và đầu gối, giữ thanh tạ gần cơ thể.",
+      "Đứng thẳng hoàn toàn, vai kéo về phía sau.",
+      "Hạ thanh tạ về sàn bằng cách gập hông và đầu gối.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng thẳng trong suốt động tác, không gập lưng.",
+      "Thở ra khi nâng lên, hít vào khi hạ xuống.",
+      "Giữ thanh tạ gần cơ thể trong suốt động tác.",
+      "Tập trung vào động tác đẩy từ chân, không kéo bằng lưng."
+    ],
+    "video": "https://www.youtube.com/watch?v=op9kVnSso6Q"
+  },
+  "overhead_press": {
+    "name": "Overhead Press",
+    "steps": [
+      "Đứng thẳng, chân rộng bằng vai.",
+      "Đặt thanh tạ trước vai, nắm thanh tạ với khoảng cách rộng hơn vai một chút.",
+      "Giữ lưng thẳng, cẳng tay vuông góc với sàn, khuỷu tay hướng xuống dưới.",
+      "Đẩy thanh tạ lên trên đỉnh đầu cho đến khi cánh tay duỗi thẳng.",
+      "Hạ thanh tạ xuống từ từ về vị trí ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ cơ thể cứng và thẳng, không uốn lưng quá mức.",
+      "Giữ đầu ở vị trí trung tính, không đâm cằm ra trước.",
+      "Thở ra khi đẩy lên, hít vào khi hạ xuống.",
+      "Nếu có vấn đề về vai, có thể thực hiện với tạ đôi."
+    ],
+    "video": "https://www.youtube.com/watch?v=2yjwXTZQDDI"
+  },
+  "barbell_row": {
+    "name": "Barbell Row",
+    "steps": [
+      "Đứng với chân rộng bằng vai, cầm thanh tạ với khoảng cách rộng hơn vai một chút.",
+      "Hạ người về phía trước bằng cách gập hông đến khi thân trên gần như song song với sàn.",
+      "Giữ lưng thẳng, đầu ở vị trí trung tính.",
+      "Kéo thanh tạ lên đến chạm bụng dưới hoặc ngay dưới ngực.",
+      "Hạ thanh tạ xuống từ từ với động tác có kiểm soát.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng thẳng trong suốt động tác, không gập lưng.",
+      "Kéo thanh tạ bằng cách kéo khuỷu tay về phía sau, không chỉ dùng cánh tay.",
+      "Giữ vững vị trí cơ thể, không đung đưa để tạo đà.",
+      "Thở ra khi kéo lên, hít vào khi hạ xuống."
+    ],
+    "video": "https://www.youtube.com/watch?v=FWJR5Ve8bnQ"
+  },
+  "dumbbell_curl": {
+    "name": "Dumbbell Curl",
+    "steps": [
+      "Đứng thẳng với chân rộng bằng vai, mỗi tay cầm một tạ đôi.",
+      "Cánh tay duỗi thẳng bên thân, lòng bàn tay hướng về phía trước.",
+      "Giữ khuỷu tay cố định bên sườn, cong cánh tay để nâng tạ lên đến vai.",
+      "Từ từ hạ tạ xuống về vị trí ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ khuỷu tay sát vào thân trong suốt động tác.",
+      "Không đung đưa cơ thể để tạo đà.",
+      "Thở ra khi nâng lên, hít vào khi hạ xuống.",
+      "Tập trung vào việc co các cơ biceps khi nâng tạ lên."
+    ],
+    "video": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+  },
+  "tricep_dip": {
+    "name": "Tricep Dip",
+    "steps": [
+      "Ngồi trên ghế hoặc xà kép, đặt tay lên mép ghế/xà, ngón tay hướng về phía trước.",
+      "Trượt người ra khỏi ghế, chân duỗi thẳng hoặc hơi gập trước mặt.",
+      "Hạ người xuống bằng cách gập khuỷu tay cho đến khi cánh tay tạo góc khoảng 90 độ.",
+      "Đẩy người lên về vị trí ban đầu bằng cách duỗi thẳng cánh tay.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ vai ép xuống, không nâng lên đến tai.",
+      "Giữ cơ thể gần với ghế/xà, không đưa quá ra xa.",
+      "Thở ra khi đẩy lên, hít vào khi hạ xuống.",
+      "Để tăng độ khó, có thể đặt trọng lượng lên đùi hoặc nâng một chân lên."
+    ],
+    "video": "https://www.youtube.com/watch?v=6kALZikXxLc"
+  },
+  "plank": {
+    "name": "Plank",
+    "steps": [
+      "Bắt đầu với tư thế nằm sấp.",
+      "Chống cẳng tay xuống sàn, khuỷu tay nằm dưới vai.",
+      "Nâng cơ thể lên sao cho trọng lượng được chống bởi cẳng tay và ngón chân.",
+      "Cơ thể tạo thành một đường thẳng từ đầu đến gót chân.",
+      "Giữ cổ ở vị trí trung tính, nhìn xuống sàn.",
+      "Giữ tư thế này trong thời gian được chỉ định."
+    ],
+    "tips": [
+      "Siết cơ bụng và cơ mông để giữ cơ thể thẳng.",
+      "Tránh uốn cong lưng dưới hoặc nâng mông lên quá cao.",
+      "Thở đều đặn trong suốt thời gian giữ tư thế.",
+      "Bắt đầu với thời gian ngắn và tăng dần khi sức bền cải thiện."
+    ],
+    "video": "https://www.youtube.com/watch?v=ASdvN_XEl_c"
+  },
+  "russian_twist": {
+    "name": "Russian Twist",
+    "steps": [
+      "Ngồi trên sàn với đầu gối hơi gập.",
+      "Ngả người về phía sau tạo góc khoảng 45 độ với sàn.",
+      "Giữ chân hơi nâng khỏi mặt đất (nếu có thể) hoặc để chân trên sàn.",
+      "Giữ tay trước ngực, nắm chặt tay hoặc cầm tạ/bóng.",
+      "Xoay phần trên cơ thể sang bên trái, chạm tay/tạ xuống sàn.",
+      "Xoay sang bên phải, chạm tay/tạ xuống sàn.",
+      "Tiếp tục xoay từ trái sang phải."
+    ],
+    "tips": [
+      "Giữ lưng thẳng trong suốt động tác.",
+      "Xoay từ phần thân trên, không chỉ xoay tay.",
+      "Thở đều, không nín thở.",
+      "Để tăng độ khó, nâng chân cao hơn hoặc tăng trọng lượng."
+    ],
+    "video": "https://www.youtube.com/watch?v=wkD8rjkodUI"
+  },
+  "push_up": {
+    "name": "Push-up",
+    "steps": [
+      "Bắt đầu với tư thế plank, tay đặt rộng hơn vai một chút.",
+      "Tay duỗi thẳng, lòng bàn tay áp xuống sàn.",
+      "Hạ người xuống bằng cách gập khuỷu tay, giữ cơ thể thẳng.",
+      "Hạ ngực xuống gần chạm sàn.",
+      "Đẩy người lên về vị trí ban đầu bằng cách duỗi thẳng cánh tay.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ cơ thể thẳng như một tấm ván từ đầu đến gót chân.",
+      "Khuỷu tay không nên mở quá rộng ra ngoài, nên ở góc khoảng 45 độ so với thân.",
+      "Thở ra khi đẩy lên, hít vào khi hạ xuống.",
+      "Nếu quá khó, có thể thực hiện với đầu gối chạm sàn."
+    ],
+    "video": "https://www.youtube.com/watch?v=IODxDxX7oi4"
+  },
+  "shoulder_press": {
+    "name": "Shoulder Press",
+    "steps": [
+      "Ngồi trên ghế có lưng dựa thẳng hoặc đứng thẳng.",
+      "Nắm tạ đôi, nâng lên ngang vai với lòng bàn tay hướng về phía trước.",
+      "Đẩy tạ lên trên đỉnh đầu cho đến khi cánh tay gần như duỗi thẳng.",
+      "Từ từ hạ tạ về vị trí ban đầu ngang vai.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ cổ và lưng ở vị trí trung tính, không đâm cằm ra trước.",
+      "Không khóa khuỷu tay hoàn toàn khi duỗi thẳng cánh tay.",
+      "Thở ra khi đẩy lên, hít vào khi hạ xuống.",
+      "Tránh uốn lưng dưới quá mức."
+    ],
+    "video": "https://www.youtube.com/watch?v=qEwKCR5JCog"
+  },
+  "lat_pulldown": {
+    "name": "Lat Pulldown",
+    "steps": [
+      "Ngồi trên máy kéo xô với đầu gối đặt dưới đệm.",
+      "Nắm thanh kéo với khoảng cách rộng hơn vai, lòng bàn tay hướng ra trước.",
+      "Bắt đầu với cánh tay duỗi thẳng và vai hơi nâng lên.",
+      "Kéo thanh xuống đến dưới cằm hoặc trên ngực bằng cách kéo khuỷu tay xuống.",
+      "Giữ tư thế kéo xuống trong 1-2 giây.",
+      "Từ từ nâng thanh lên về vị trí ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng thẳng, không ngả người quá xa về phía sau.",
+      "Tập trung kéo bằng cơ lưng, không chỉ dùng cánh tay.",
+      "Thở ra khi kéo xuống, hít vào khi nâng lên.",
+      "Không kéo thanh quá thấp đến mức làm giảm hiệu quả của động tác."
+    ],
+    "video": "https://www.youtube.com/watch?v=CAwf7n6Luuc"
+  },
+  "leg_press": {
+    "name": "Leg Press",
+    "steps": [
+      "Ngồi vào máy leg press, đặt chân lên đế đạp với khoảng cách rộng bằng vai.",
+      "Mở khóa an toàn của máy.",
+      "Từ từ hạ đế đạp bằng cách gập đầu gối đến khi đùi gần chạm ngực.",
+      "Đẩy đế đạp ra xa cho đến khi chân gần như duỗi thẳng, nhưng không khóa đầu gối.",
+      "Từ từ hạ đế đạp trở về.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Không khóa đầu gối khi duỗi thẳng chân.",
+      "Giữ lưng dưới áp sát vào ghế, không uốn lưng.",
+      "Đặt chân ở vị trí phù hợp để tập trung vào nhóm cơ mong muốn.",
+      "Thở ra khi đẩy, hít vào khi hạ xuống."
+    ],
+    "video": "https://www.youtube.com/watch?v=IZxyjW7MPJQ"
+  },
+  "cable_row": {
+    "name": "Cable Row",
+    "steps": [
+      "Ngồi trên ghế máy kéo cáp, chân đặt trên đế tỳ chân.",
+      "Nắm tay cầm, cánh tay duỗi thẳng về phía trước.",
+      "Giữ lưng thẳng, hơi ngả về phía sau.",
+      "Kéo tay cầm về phía bụng dưới bằng cách kéo khuỷu tay về phía sau.",
+      "Giữ tư thế kéo trong 1-2 giây.",
+      "Từ từ trả tay cầm về vị trí ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ lưng thẳng, không gập lưng.",
+      "Kéo bằng cơ lưng, không chỉ dùng cánh tay.",
+      "Thở ra khi kéo về phía bụng, hít vào khi trả ra.",
+      "Tránh đung đưa thân trên để tạo đà."
+    ],
+    "video": "https://www.youtube.com/watch?v=GZbfZ033f74"
+  },
+  "dumbbell_lateral_raise": {
+    "name": "Dumbbell Lateral Raise",
+    "steps": [
+      "Đứng thẳng với chân rộng bằng vai, mỗi tay cầm một tạ đôi.",
+      "Tay đặt hai bên thân, lòng bàn tay hướng vào nhau.",
+      "Giữ khuỷu tay hơi gập, nâng tạ lên hai bên đến khi cánh tay gần song song với sàn.",
+      "Giữ tư thế trên cùng trong 1-2 giây.",
+      "Từ từ hạ tạ xuống về vị trí ban đầu.",
+      "Lặp lại động tác."
+    ],
+    "tips": [
+      "Giữ khuỷu tay hơi gập để giảm áp lực lên khớp vai.",
+      "Nâng bằng vai, không dùng xung lực từ thân.",
+      "Thở ra khi nâng lên, hít vào khi hạ xuống.",
+      "Bắt đầu với trọng lượng nhẹ để đảm bảo kỹ thuật đúng."
+    ],
+    "video": "https://www.youtube.com/watch?v=3VcKaXpzqRo"
+  },
+  "bicycle_crunch": {
+    "name": "Bicycle Crunch",
+    "steps": [
+      "Nằm ngửa trên sàn, hai tay đặt sau đầu.",
+      "Nâng vai và đầu lên khỏi sàn.",
+      "Nâng chân lên, gập đầu gối tạo góc 90 độ.",
+      "Xoay phần trên cơ thể, đưa khuỷu tay phải chạm đầu gối trái.",
+      "Đồng thời duỗi chân phải ra thẳng ở góc khoảng 45 độ so với sàn.",
+      "Chuyển sang bên kia, đưa khuỷu tay trái chạm đầu gối phải và duỗi chân trái.",
+      "Tiếp tục luân phiên hai bên như đang đạp xe."
+    ],
+    "tips": [
+      "Thực hiện động tác chậm và có kiểm soát.",
+      "Tập trung vào việc xoay thân trên, không chỉ chạm khuỷu tay vào đầu gối.",
+      "Giữ đầu và vai luôn nâng lên, không đặt xuống sàn giữa các lần lặp.",
+      "Thở đều đặn trong suốt động tác."
+    ],
+    "video": "https://www.youtube.com/watch?v=9FGilxCbdz8"
+  }
+}

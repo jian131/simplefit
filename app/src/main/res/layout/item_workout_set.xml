@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="4dp"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/text_set_number"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edit_weight"
+        tools:text="Set 1" />
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/kg"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:minWidth="70dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/edit_reps"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/text_set_number"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_reps"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="@string/reps"
+        android:inputType="number"
+        android:maxLength="3"
+        android:minWidth="70dp"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textColor="@color/colorTextPrimary"
+        android:textColorHint="@color/colorTextSecondary"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/check_completed"
+        app:layout_constraintStart_toEndOf="@+id/edit_weight"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/check_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:buttonTint="@color/colorAccent"
+        android:contentDescription="@string/mark_set_as_completed"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_reps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edit_reps"
+        app:layout_constraintTop_toTopOf="@+id/edit_reps" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,238 @@
+{
+  "routines": [
+    {
+      "id": "full_body_beginner",
+      "name": "Bài tập Full Body cho người mới",
+      "description": "Bài tập toàn thân cơ bản phù hợp cho người mới tập, chú trọng vào kỹ thuật và xây dựng nền tảng.",
+      "difficulty": "beginner",
+      "estimatedTime": 45,
+      "muscleGroups": ["chest", "back", "legs", "shoulders", "arms", "core"],
+      "created": 1640995200000,
+      "exercises": [
+        {
+          "exerciseId": "push_up",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "barbell_squat",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 90
+        },
+        {
+          "exerciseId": "barbell_row",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "dumbbell_lateral_raise",
+          "sets": 3,
+          "reps": "12-15",
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "dumbbell_curl",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "plank",
+          "sets": 3,
+          "reps": "30s",
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "id": "upper_lower_split",
+      "name": "Phân chia Upper/Lower",
+      "description": "Bài tập chia theo phần trên và phần dưới cơ thể. Tập trung vào phát triển sức mạnh và kích thước cơ bắp.",
+      "difficulty": "intermediate",
+      "estimatedTime": 60,
+      "muscleGroups": ["chest", "back", "shoulders", "arms"],
+      "created": 1641600000000,
+      "exercises": [
+        {
+          "exerciseId": "barbell_bench_press",
+          "sets": 4,
+          "reps": "8-10",
+          "restSeconds": 90
+        },
+        {
+          "exerciseId": "pull_up",
+          "sets": 4,
+          "reps": "8-10",
+          "restSeconds": 90
+        },
+        {
+          "exerciseId": "shoulder_press",
+          "sets": 3,
+          "reps": "8-10",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "dumbbell_curl",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "tricep_dip",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "id": "lower_body_focus",
+      "name": "Tập trung phần dưới",
+      "description": "Bài tập tập trung vào cơ chân và mông. Phát triển sức mạnh và kích thước cho phần dưới cơ thể.",
+      "difficulty": "intermediate",
+      "estimatedTime": 50,
+      "muscleGroups": ["quads", "hamstrings", "glutes", "calves"],
+      "created": 1642204800000,
+      "exercises": [
+        {
+          "exerciseId": "barbell_squat",
+          "sets": 4,
+          "reps": "8-10",
+          "restSeconds": 120
+        },
+        {
+          "exerciseId": "barbell_deadlift",
+          "sets": 4,
+          "reps": "6-8",
+          "restSeconds": 180
+        },
+        {
+          "exerciseId": "leg_press",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 90
+        },
+        {
+          "exerciseId": "plank",
+          "sets": 3,
+          "reps": "45s",
+          "restSeconds": 30
+        }
+      ]
+    },
+    {
+      "id": "core_workout",
+      "name": "Tập cơ bụng và lõi",
+      "description": "Bài tập tập trung vào các nhóm cơ bụng và lõi, giúp tăng cường sức mạnh và độ ổn định của thân.",
+      "difficulty": "beginner",
+      "estimatedTime": 30,
+      "muscleGroups": ["abs", "core", "obliques", "lower_back"],
+      "created": 1642809600000,
+      "exercises": [
+        {
+          "exerciseId": "plank",
+          "sets": 3,
+          "reps": "45-60s",
+          "restSeconds": 30
+        },
+        {
+          "exerciseId": "russian_twist",
+          "sets": 3,
+          "reps": "15-20",
+          "restSeconds": 45
+        },
+        {
+          "exerciseId": "bicycle_crunch",
+          "sets": 3,
+          "reps": "15-20",
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "id": "push_pull_legs",
+      "name": "Push Pull Legs",
+      "description": "Bài tập theo phương pháp chia Push (đẩy), Pull (kéo), Legs (chân). Bài tập này tập trung vào phần Push.",
+      "difficulty": "advanced",
+      "estimatedTime": 75,
+      "muscleGroups": ["chest", "shoulders", "triceps"],
+      "created": 1643414400000,
+      "exercises": [
+        {
+          "exerciseId": "barbell_bench_press",
+          "sets": 4,
+          "reps": "6-8",
+          "restSeconds": 120
+        },
+        {
+          "exerciseId": "overhead_press",
+          "sets": 4,
+          "reps": "6-8",
+          "restSeconds": 120
+        },
+        {
+          "exerciseId": "push_up",
+          "sets": 3,
+          "reps": "12-15",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "tricep_dip",
+          "sets": 3,
+          "reps": "8-12",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "dumbbell_lateral_raise",
+          "sets": 3,
+          "reps": "12-15",
+          "restSeconds": 45
+        }
+      ]
+    },
+    {
+      "id": "pull_workout",
+      "name": "Pull Workout",
+      "description": "Bài tập theo phương pháp chia Push (đẩy), Pull (kéo), Legs (chân). Bài tập này tập trung vào phần Pull.",
+      "difficulty": "advanced",
+      "estimatedTime": 70,
+      "muscleGroups": ["back", "biceps", "forearms"],
+      "created": 1644019200000,
+      "exercises": [
+        {
+          "exerciseId": "pull_up",
+          "sets": 4,
+          "reps": "6-10",
+          "restSeconds": 120
+        },
+        {
+          "exerciseId": "barbell_row",
+          "sets": 4,
+          "reps": "8-10",
+          "restSeconds": 90
+        },
+        {
+          "exerciseId": "lat_pulldown",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "cable_row",
+          "sets": 3,
+          "reps": "10-12",
+          "restSeconds": 60
+        },
+        {
+          "exerciseId": "dumbbell_curl",
+          "sets": 4,
+          "reps": "10-12",
+          "restSeconds": 45
+        }
+      ]
+    }
+  ]
+}

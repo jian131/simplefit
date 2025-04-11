@@ -11,13 +11,6 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
 
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
@@ -27,6 +20,6 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
+
 rootProject.name = "SimpleFit"
 include(":app")
- 

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <!-- Main Tabs - Fragments -->
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jian.simplefit.ui.main.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_routineDetail"
+            app:destination="@id/routineDetailActivity" />
+        <action
+            android:id="@+id/action_home_to_exerciseDetail"
+            app:destination="@id/exerciseDetailActivity" />
+        <action
+            android:id="@+id/action_home_to_workout"
+            app:destination="@id/workoutActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_exercises"
+        android:name="com.jian.simplefit.ui.main.fragments.ExercisesFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercises">
+        <action
+            android:id="@+id/action_exercises_to_exerciseList"
+            app:destination="@id/exerciseListActivity" />
+        <action
+            android:id="@+id/action_exercises_to_muscleModel"
+            app:destination="@id/navigation_muscle_model" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_routines"
+        android:name="com.jian.simplefit.ui.main.fragments.RoutinesFragment"
+        android:label="@string/title_routines"
+        tools:layout="@layout/fragment_routines">
+        <action
+            android:id="@+id/action_routines_to_routineDetail"
+            app:destination="@id/routineDetailActivity" />
+        <action
+            android:id="@+id/action_routines_to_createRoutine"
+            app:destination="@id/createRoutineActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="com.jian.simplefit.ui.main.fragments.ProgressFragment"
+        android:label="@string/title_progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <!-- Drawer Navigation Fragments -->
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.jian.simplefit.ui.main.fragments.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.jian.simplefit.ui.main.fragments.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_about"
+        android:name="com.jian.simplefit.ui.main.fragments.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/navigation_workout_history"
+        android:name="com.jian.simplefit.ui.main.fragments.WorkoutHistoryFragment"
+        android:label="@string/menu_workout_history"
+        tools:layout="@layout/fragment_workout_history" />
+
+    <fragment
+        android:id="@+id/navigation_muscle_model"
+        android:name="com.jian.simplefit.ui.main.fragments.MuscleModelFragment"
+        android:label="@string/title_muscle_model"
+        tools:layout="@layout/fragment_muscle_model" />
+
+    <!-- Activity Destinations - No actions allowed inside activity elements -->
+    <activity
+        android:id="@+id/routineDetailActivity"
+        android:name="com.jian.simplefit.ui.routine.RoutineDetailActivity"
+        android:label="@string/title_routine_detail"
+        tools:layout="@layout/activity_routine_detail" />
+
+    <activity
+        android:id="@+id/routineListActivity"
+        android:name="com.jian.simplefit.ui.routine.RoutineListActivity"
+        android:label="@string/title_routines" />
+
+    <activity
+        android:id="@+id/createRoutineActivity"
+        android:name="com.jian.simplefit.ui.routine.CreateRoutineActivity"
+        android:label="@string/title_create_routine"
+        tools:layout="@layout/activity_create_routine" />
+
+    <activity
+        android:id="@+id/exerciseDetailActivity"
+        android:name="com.jian.simplefit.ui.exercise.ExerciseDetailActivity"
+        android:label="@string/title_exercise_detail"
+        tools:layout="@layout/activity_exercise_detail" />
+
+    <activity
+        android:id="@+id/exerciseListActivity"
+        android:name="com.jian.simplefit.ui.exercise.ExerciseListActivity"
+        android:label="@string/title_exercise_list"
+        tools:layout="@layout/activity_exercise_list" />
+
+    <activity
+        android:id="@+id/workoutActivity"
+        android:name="com.jian.simplefit.ui.workout.WorkoutActivity"
+        android:label="@string/title_workout"
+        tools:layout="@layout/activity_workout" />
+</navigation>

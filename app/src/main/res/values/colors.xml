@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
-    <color name="background_color">#000000</color>
-    <color name="primary_text">#FFFFFF</color>
-    <color name="link_color">#FFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorPrimaryLight">#81C784</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorCardBackground">#1E1E1E</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#B3FFFFFF</color> <!-- 70% white -->
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorInputBackground">#2A2A2A</color>
+    <color name="colorInputStroke">#3C3C3C</color>
+    <color name="colorSuccess">@color/colorPrimary</color>
+    <color name="colorTextHint">#66FFFFFF</color>
+    <color name="colorDialogBackground">@color/colorBackground</color>
+    <color name="colorDivider">#1FFFFFFF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryLight">#CCFFFFFF</color>
+    <!-- Add this missing color -->
+    <color name="colorBackgroundAlt">#1A1A1A</color>
+
+    <!-- Colors for Rest Timer -->
+    <color name="colorRestTimerBackground">#222222</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorRipple">#1FFFFFFF</color>
+    <color name="colorSelectedOverlay">#661A237E</color>
+    <color name="colorError">#FF5252</color>
+
 </resources>
