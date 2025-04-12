@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.jian.simplefit.ui.main.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_workout"
+            app:destination="@id/dest_workout"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_routines"
+        android:name="com.jian.simplefit.ui.main.fragments.RoutinesFragment"
+        android:label="@string/title_routines"
+        tools:layout="@layout/fragment_routines">
+        <action
+            android:id="@+id/action_routines_to_routine_detail"
+            app:destination="@id/dest_routine_detail"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_routines_to_create_routine"
+            app:destination="@id/dest_create_routine"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_exercises"
+        android:name="com.jian.simplefit.ui.main.fragments.ExercisesFragment"
+        android:label="@string/title_exercises"
+        tools:layout="@layout/fragment_exercises">
+        <action
+            android:id="@+id/action_exercises_to_exercise_detail"
+            app:destination="@id/dest_exercise_detail"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_exercises_to_muscle_model"
+            app:destination="@id/navigation_muscle_model"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_workout_history"
+        android:name="com.jian.simplefit.ui.main.fragments.WorkoutHistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_workout_history">
+        <action
+            android:id="@+id/action_workout_history_to_workout_summary"
+            app:destination="@id/dest_workout_summary"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.jian.simplefit.ui.main.fragments.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_muscle_model"
+        android:name="com.jian.simplefit.ui.main.fragments.MuscleModelFragment"
+        android:label="@string/title_muscle_model"
+        tools:layout="@layout/fragment_muscle_model" />
+
+    <!-- Detail destinations -->
+    <activity
+        android:id="@+id/dest_routine_detail"
+        android:name="com.jian.simplefit.ui.routine.RoutineDetailActivity"
+        android:label="@string/title_routine_detail"
+        tools:layout="@layout/activity_routine_detail">
+        <argument
+            android:name="routineId"
+            app:argType="string" />
+    </activity>
+
+    <activity
+        android:id="@+id/dest_create_routine"
+        android:name="com.jian.simplefit.ui.routine.CreateRoutineActivity"
+        android:label="@string/title_create_routine"
+        tools:layout="@layout/activity_create_routine">
+        <argument
+            android:name="routineId"
+            app:argType="string"
+            app:nullable="true" />
+    </activity>
+
+    <activity
+        android:id="@+id/dest_exercise_detail"
+        android:name="com.jian.simplefit.ui.exercise.ExerciseDetailActivity"
+        android:label="@string/title_exercise_detail"
+        tools:layout="@layout/activity_exercise_detail">
+        <argument
+            android:name="exerciseId"
+            app:argType="string" />
+    </activity>
+
+    <activity
+        android:id="@+id/dest_workout"
+        android:name="com.jian.simplefit.ui.workout.WorkoutActivity"
+        android:label="@string/title_workout"
+        tools:layout="@layout/activity_workout">
+        <argument
+            android:name="routineId"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="workoutId"
+            app:argType="string"
+            app:nullable="true" />
+    </activity>
+
+    <activity
+        android:id="@+id/dest_workout_summary"
+        android:name="com.jian.simplefit.ui.workout.WorkoutSummaryActivity"
+        android:label="@string/title_workout_summary"
+        tools:layout="@layout/activity_workout_summary">
+        <argument
+            android:name="workoutId"
+            app:argType="string" />
+    </activity>
+</navigation>

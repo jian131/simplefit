@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/action_filter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_view_muscles"
+        android:icon="@drawable/ic_muscle"
+        android:title="@string/view_muscle_model"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/sort_name_asc"
+                android:title="@string/sort_name_asc" />
+
+            <item
+                android:id="@+id/sort_name_desc"
+                android:title="@string/sort_name_desc" />
+
+            <item
+                android:id="@+id/sort_difficulty_asc"
+                android:title="@string/sort_difficulty_asc" />
+
+            <item
+                android:id="@+id/sort_difficulty_desc"
+                android:title="@string/sort_difficulty_desc" />
+        </menu>
+    </item>
+</menu>

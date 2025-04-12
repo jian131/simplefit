@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jian.simplefit">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -8,24 +8,65 @@
     <application
         android:name=".SimpleFitApplication"
         android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SimpleFit">
+        android:theme="@style/Theme.SimpleFit"
+        tools:targetApi="31">
 
-        <!-- Facebook Login Configuration -->
-        <meta-data
-            android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
-
+        <!-- Main Activity -->
         <activity
-            android:name=".ui.MainActivity"
-            android:exported="true">
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SimpleFit.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Auth Activities -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SimpleFit.NoActionBar" />
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SimpleFit.NoActionBar" />
+
+        <activity
+            android:name=".ui.auth.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.SimpleFit.NoActionBar" />
+
+        <!-- Add other activities here -->
+        <activity
+            android:name=".ui.routine.CreateRoutineActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.routine.RoutineDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.exercise.ExerciseListActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.exercise.ExerciseDetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.workout.WorkoutActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.workout.WorkoutSummaryActivity"
+            android:exported="false" />
     </application>
 </manifest>

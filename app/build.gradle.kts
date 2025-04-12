@@ -63,18 +63,23 @@ dependencies {
     implementation("com.google.android.material:material:1.5.0")
     implementation("androidx.activity:activity:1.4.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.3")
-
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
     // Navigation
     implementation("androidx.navigation:navigation-fragment:2.4.1")
     implementation("androidx.navigation:navigation-ui:2.4.1")
 
+    implementation("de.hdodenhof:circleimageview:3.1.0")
     // Lifecycle components
     implementation("androidx.lifecycle:lifecycle-viewmodel:2.4.1")
     implementation("androidx.lifecycle:lifecycle-livedata:2.4.1")
 
+    implementation(libs.security.crypto)
+    implementation(libs.room.common.jvm)
     // Room
-    implementation("androidx.room:room-runtime:2.4.1")
-    annotationProcessor("androidx.room:room-compiler:2.4.1")
+    val roomVersion = "2.6.1"
+    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation("androidx.room:room-ktx:$roomVersion")
+    annotationProcessor("androidx.room:room-compiler:$roomVersion")
 
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:29.0.3"))

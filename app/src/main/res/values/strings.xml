@@ -1,9 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">SimpleFit</string>
-    <string name="facebook_app_id">com.facebook.katana</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_profile">Profile</string>
-    <string name="title_settings">Settings</string>
+
+    <!-- Auth Strings -->
+    <string name="app_logo">Logo ứng dụng</string>
+    <string name="welcome_to_simple_fit">Chào mừng đến với SimpleFit</string>
+    <string name="login_to_continue">Đăng nhập để tiếp tục</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="login">Đăng nhập</string>
+    <string name="or">HOẶC</string>
+    <string name="don_t_have_an_account">Chưa có tài khoản?</string>
+    <string name="register">Đăng ký</string>
+    <string name="create_account">Tạo tài khoản</string>
+    <string name="register_to_track_your_fitness">Đăng ký để theo dõi quá trình tập luyện của bạn</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="register_now">Đăng ký ngay</string>
+    <string name="already_have_an_account">Đã có tài khoản?</string>
+    <string name="reset_password">Đặt lại mật khẩu</string>
+    <string name="reset_instructions">Nhập địa chỉ email đã đăng ký và chúng tôi sẽ gửi cho bạn hướng dẫn để đặt lại mật khẩu.</string>
+    <string name="send_reset_link">Gửi link đặt lại mật khẩu</string>
+    <string name="password_requirement">Mật khẩu phải có ít nhất 6 ký tự</string>
+
+    <!-- Navigation -->
+    <string name="title_home">Trang chủ</string>
+    <string name="title_exercises">Bài tập cơ bản</string>
+    <string name="title_routines">Bài tập</string>
+    <string name="title_progress">Tiến độ</string>
+    <string name="menu_profile">Hồ sơ</string>
+    <string name="menu_settings">Cài đặt</string>
+    <string name="menu_about">Giới thiệu</string>
+    <string name="menu_other">Khác</string>
+    <string name="menu_logout">Đăng xuất</string>
+    <string name="navigation_drawer_open">Mở ngăn điều hướng</string>
+    <string name="navigation_drawer_close">Đóng ngăn điều hướng</string>
+
+    <!-- Navigation Titles -->
+    <string name="title_exercise_detail">Chi tiết bài tập cơ bản</string>
+    <string name="title_filter_exercises">Lọc bài tập</string>
+    <string name="title_muscle_groups">Nhóm cơ</string>
+    <string name="title_exercises_by_muscle">Bài tập cho %s</string>
+    <string name="title_routine_detail">Chi tiết bài tập</string>
+    <string name="title_create_routine">Tạo bài tập</string>
+    <string name="title_edit_routine">Sửa bài tập</string>
+    <string name="title_add_exercises">Thêm bài tập cơ bản</string>
+    <string name="title_workout">Buổi tập</string>
+    <string name="title_rest_timer">Bộ đếm thời gian nghỉ</string>
+    <string name="title_workout_complete">Hoàn thành buổi tập</string>
+    <string name="title_workout_history">Lịch sử tập luyện</string>
+    <string name="title_workout_detail">Chi tiết buổi tập</string>
+    <string name="title_weight_chart">Biểu đồ cân nặng</string>
+    <string name="title_exercise_progress">Tiến độ bài tập</string>
+    <string name="title_edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="title_body_measurements">Số đo cơ thể</string>
+    <string name="title_add_measurement">Thêm số đo</string>
+    <string name="title_history">Lịch sử</string>
+    <string name="title_profile">Hồ sơ</string>
+    <string name="title_muscle_model">Mô hình cơ bắp</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_image">Ảnh đại diện</string>
+    <string name="username_placeholder">Tên người dùng</string>
+    <string name="email_placeholder">user@example.com</string>
+    <string name="change_photo">Thay đổi ảnh</string>
+    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="workout_stats">Thống kê tập luyện</string>
+    <string name="total_workouts">Tổng buổi tập</string>
+    <string name="total_time">Tổng thời gian</string>
+    <string name="total_sets">Tổng số bộ</string>
+    <string name="total_weight">Tổng cân nặng</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="logout_confirmation">Bạn có chắc muốn đăng xuất không?</string>
+    <string name="edit_profile_coming_soon">Tính năng chỉnh sửa hồ sơ sẽ có trong thời gian tới!</string>
+    <string name="profile_image_updated">Cập nhật ảnh đại diện thành công</string>
+    <string name="hours_minutes">%1$d giờ %2$d phút</string>
+    <string name="minutes">%d phút</string>
+
+    <!-- Home Fragment -->
+    <string name="welcome">Chào mừng đến với SimpleFit!</string>
+    <string name="welcome_user">Chào mừng trở lại, %s!</string>
+    <string name="ready_to_workout">Sẵn sàng bắt đầu buổi tập?</string>
+    <string name="start_workout">Bắt đầu tập luyện</string>
+    <string name="last_workout">Buổi tập gần nhất</string>
+    <string name="exercises_count">%d bài tập</string>
+    <string name="duration">Thời gian</string>
+    <string name="recommended_routines">Bài tập được đề xuất</string>
+    <string name="featured_exercises">Bài tập nổi bật</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="no_recommended_routines">Chưa có bài tập được đề xuất. Hãy tạo bài tập đầu tiên!</string>
+    <string name="no_featured_exercises">Chưa có bài tập nổi bật. Hãy xem trong tab bài tập!</string>
+
+    <!-- Routines Fragment -->
+    <string name="add_routine">Thêm bài tập</string>
+    <string name="create_first_routine">Tạo bài tập đầu tiên</string>
+    <string name="no_routines_yet">Bạn chưa có bài tập nào. Hãy tạo bài tập đầu tiên!</string>
+    <string name="error_loading_routines">Không thể tải danh sách bài tập. Kéo xuống để làm mới.</string>
+    <string name="search_routines">Tìm kiếm bài tập</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="sort_by_name">Sắp xếp theo tên</string>
+    <string name="sort_by_date">Sắp xếp theo ngày</string>
+    <string name="no_routines_match_search">Không tìm thấy bài tập \"%s\"</string>
+
+    <!-- Routine Detail -->
+    <string name="routine_details">Chi tiết bài tập</string>
+    <string name="edit">Sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="full_body">Toàn thân</string>
+    <string name="beginner">Người mới</string>
+    <string name="intermediate">Trung bình</string>
+    <string name="advanced">Nâng cao</string>
+    <string name="all_levels">Tất cả cấp độ</string>
+    <string name="minutes_format">%d phút</string>
+    <string name="varies">Thay đổi</string>
+    <string name="no_exercises_in_routine">Không có bài tập cơ bản nào trong bài tập này</string>
+    <string name="delete_routine">Xóa bài tập</string>
+    <string name="delete_routine_confirmation">Bạn có chắc muốn xóa bài tập này không?</string>
+    <string name="delete_routine_confirm">Bạn có chắc muốn xóa bài tập này? Hành động này không thể hoàn tác.</string>
+    <string name="routine_deleted">Bài tập đã xóa</string>
+    <string name="error_loading_routine">Không thể tải chi tiết bài tập</string>
+    <string name="error_loading_exercises">Không thể tải danh sách bài tập cơ bản</string>
+    <string name="reordering_coming_soon">Tính năng sắp xếp lại bài tập sẽ có trong thời gian tới</string>
+    <string name="routine_image">Hình ảnh bài tập</string>
+    <string name="target">Mục tiêu</string>
+    <string name="difficulty">Độ khó</string>
+    <string name="reorder">Sắp xếp lại</string>
+
+    <!-- Create/Edit Routine -->
+    <string name="create_routine">Tạo bài tập</string>
+    <string name="edit_routine">Sửa bài tập</string>
+    <string name="routine_name">Tên bài tập</string>
+    <string name="routine_description">Mô tả (tùy chọn)</string>
+    <string name="target_muscle_groups">Nhóm cơ mục tiêu</string>
+    <string name="difficulty_level">Cấp độ khó</string>
+    <string name="estimated_time_min">Thời gian ước tính (phút)</string>
+    <string name="estimated_time_minutes">Thời gian ước tính (phút)</string>
+    <string name="add_exercises">Thêm bài tập cơ bản</string>
+    <string name="no_exercises_added">Chưa thêm bài tập cơ bản nào</string>
+    <string name="save_routine">Lưu bài tập</string>
+    <string name="error_routine_name_required">Vui lòng nhập tên bài tập</string>
+    <string name="error_name_required">Tên bài tập là bắt buộc</string>
+    <string name="error_add_exercises">Vui lòng thêm ít nhất một bài tập</string>
+    <string name="error_invalid_time">Vui lòng nhập thời gian hợp lệ</string>
+    <string name="routine_created">Tạo bài tập thành công</string>
+    <string name="routine_updated">Cập nhật bài tập thành công</string>
+    <string name="remove_exercise">Xóa bài tập cơ bản</string>
+    <string name="confirm_remove_exercise">Xóa %s khỏi bài tập này?</string>
+    <string name="remove">Xóa</string>
+    <string name="discard_changes">Hủy thay đổi</string>
+    <string name="discard_changes_confirmation">Bạn có thay đổi chưa lưu. Bạn có chắc muốn hủy không?</string>
+    <string name="edit_exercise">Sửa bài tập cơ bản</string>
+    <string name="sets">Số bộ</string>
+    <string name="note">Ghi chú (tùy chọn)</string>
+
+    <!-- Routine Adapters -->
+    <string name="last_performed">Gần đây: %s</string>
+    <string name="sets_reps_format">%d bộ × %s lần</string>
+    <string name="rest_seconds">Nghỉ: %d giây</string>
+    <string name="rest_minutes">Nghỉ: %d phút</string>
+    <string name="rest_minutes_seconds">Nghỉ: %d phút %d giây</string>
+    <string name="exercise_image">Hình ảnh bài tập</string>
+    <string name="reorder_exercise">Sắp xếp lại bài tập</string>
+    <string name="times_completed">Đã hoàn thành %d lần</string>
+    <string name="never_performed">Chưa thực hiện lần nào</string>
+    <string name="unknown_exercise">Bài tập không xác định</string>
+
+    <!-- Workout Activity -->
+    <string name="workout_in_progress">Đang tập luyện</string>
+    <string name="workout_time">Thời gian:</string>
+    <string name="current_exercise">Bài tập hiện tại:</string>
+    <string name="next_exercise">Tiếp theo: %1$s</string>
+    <string name="sets_remaining">%1$d bộ còn lại</string>
+    <string name="rest_timer">Thời gian nghỉ</string>
+    <string name="pause">Tạm dừng</string>
+    <string name="resume">Tiếp tục</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="complete_workout">Hoàn thành buổi tập</string>
+    <string name="uncompleted_exercises_warning">Một số bài tập chưa hoàn thành. Bạn có chắc muốn kết thúc buổi tập?</string>
+    <string name="complete_workout_confirmation">Bạn có chắc muốn kết thúc buổi tập?</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="exit_workout">Thoát buổi tập</string>
+    <string name="exit_workout_confirmation">Bạn có muốn lưu tiến độ buổi tập hiện tại không?</string>
+    <string name="save_and_exit">Lưu và thoát</string>
+    <string name="workout_saved">Đã lưu buổi tập</string>
+    <string name="all_exercises_completed">Tất cả bài tập đã hoàn thành</string>
+    <string name="finish_workout">Kết thúc</string>
+    <string name="add_exercises_to_workout">Thêm bài tập vào buổi tập của bạn</string>
+    <string name="add_exercise_coming_soon">Tính năng thêm bài tập sẽ có trong thời gian tới</string>
+    <string name="no_exercises">Không có bài tập nào</string>
+    <string name="elapsed_time">Thời gian đã trôi qua</string>
+    <string name="rest_time">Thời gian nghỉ</string>
+    <string name="seconds">giây</string>
+    <string name="skip_rest">Bỏ qua thời gian nghỉ</string>
+    <string name="set_timer">Đặt hẹn giờ</string>
+    <string name="rest_complete">Đã hết thời gian nghỉ</string>
+    <string name="set_rest_timer">Đặt thời gian nghỉ</string>
+    <string name="finish_workout_confirm">Bạn có chắc chắn muốn kết thúc buổi tập này?</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="exit_workout_confirm">Bạn có chắc chắn muốn thoát? Tiến độ của bạn sẽ được lưu lại.</string>
+    <string name="exit">Thoát</string>
+    <string name="rest_time_format">Nghỉ: %1$d:%02d</string>
+    <string name="no_rest_time">Không có thời gian nghỉ</string>
+
+    <!-- Workout Summary -->
+    <string name="workout_complete">Hoàn thành buổi tập!</string>
+    <string name="workout">Buổi tập</string>
+    <string name="workout_summary">Tổng kết buổi tập</string>
+    <string name="duration_label">Thời gian</string>
+    <string name="sets_label">Số bộ</string>
+    <string name="reps_label">Số lần</string>
+    <string name="weight_label">Trọng lượng</string>
+    <string name="exercise_details">Chi tiết bài tập</string>
+    <string name="exercises_completed">Các bài tập đã hoàn thành:</string>
+    <string name="routine_used">Bài tập được sử dụng</string>
+    <string name="view_routine">Xem bài tập</string>
+    <string name="done">Hoàn thành</string>
+    <string name="share">Chia sẻ</string>
+    <string name="error_loading_workout">Không thể tải dữ liệu buổi tập</string>
+    <string name="duration_hours_minutes">%1$d giờ %2$d phút</string>
+    <string name="duration_minutes">%1$d phút</string>
+    <string name="i_completed_workout">Tôi đã hoàn thành buổi tập %1$s!</string>
+    <string name="sets_of">bộ với</string>
+    <string name="share_workout">Chia sẻ buổi tập</string>
+    <string name="my_workout_summary">Tổng kết buổi tập của tôi</string>
+    <string name="total_volume">Tổng khối lượng: %.1f kg</string>
+    <string name="weight_format">%.1f kg</string>
+    <string name="share_workout_header">Thành tích tập luyện của tôi với SimpleFit</string>
+    <string name="share_workout_subject">Thành tích tập luyện SimpleFit</string>
+
+    <!-- Workout History -->
+    <string name="all">Tất cả</string>
+    <string name="this_week">Tuần này</string>
+    <string name="this_month">Tháng này</string>
+    <string name="no_workouts_yet">Bạn chưa hoàn thành buổi tập nào.</string>
+    <string name="no_workouts_this_week">Bạn chưa hoàn thành buổi tập nào trong tuần này.</string>
+    <string name="no_workouts_this_month">Bạn chưa hoàn thành buổi tập nào trong tháng này.</string>
+    <string name="error_loading_workouts">Không thể tải lịch sử tập luyện. Kéo xuống để làm mới.</string>
+
+    <!-- Workout Adapters -->
+    <string name="sets_progress">%1$d/%2$d bộ</string>
+    <string name="rest_between_sets_sec">Nghỉ giữa các bộ: %d giây</string>
+    <string name="rest_between_sets_min">Nghỉ giữa các bộ: %d phút</string>
+    <string name="rest_between_sets_min_sec">Nghỉ giữa các bộ: %d phút %d giây</string>
+    <string name="no_rest_time_set">Không đặt thời gian nghỉ</string>
+    <string name="set_number">Bộ %d</string>
+    <string name="kg">kg</string>
+    <string name="kg_lifted">kg</string>
+    <string name="reps">lần</string>
+    <string name="mark_set_as_completed">Đánh dấu đã hoàn thành</string>
+    <string name="volume">Khối lượng</string>
+    <string name="sets_completed">%1$d/%2$d bộ đã hoàn thành</string>
+
+    <!-- Exercise Detail -->
+    <string name="exercise_detail">Chi tiết bài tập</string>
+    <string name="error_loading_exercise">Không thể tải thông tin bài tập</string>
+    <string name="exercise_instructions">Hướng dẫn thực hiện</string>
+    <string name="no_instructions_available">Không có hướng dẫn chi tiết cho bài tập này</string>
+    <string name="similar_exercises">Các bài tập tương tự</string>
+    <string name="no_similar_exercises">Không có bài tập tương tự</string>
+    <string name="equipment">Thiết bị</string>
+    <string name="no_equipment">Không cần thiết bị</string>
+    <string name="show_video">Xem video hướng dẫn</string>
+
+    <!-- Exercise Filter -->
+    <string name="filter_exercises">Lọc bài tập</string>
+    <string name="apply_filters">Áp dụng bộ lọc</string>
+    <string name="reset">Đặt lại</string>
+    <string name="select_muscle_groups">Chọn các nhóm cơ bạn muốn lọc</string>
+    <string name="all_difficulties">Tất cả độ khó</string>
+    <string name="all_equipment">Tất cả thiết bị</string>
+    <string name="compound_exercises_only">Chỉ bài tập tổng hợp</string>
+    <string name="filters_applied">Bộ lọc đã áp dụng:</string>
+    <string name="clear_filters">Xóa bộ lọc</string>
+    <string name="search_exercises">Tìm kiếm bài tập</string>
+    <string name="no_exercises_match">Không tìm thấy bài tập phù hợp với bộ lọc</string>
+    <string name="muscle_groups">Nhóm cơ</string>
+    <string name="view_muscle_model">Xem mô hình cơ</string>
+    <string name="sort_name_asc">Tên (A-Z)</string>
+
+    <!-- Exercise Strings -->
+    <string name="exercises">Bài tập cơ bản</string>
+    <string name="favorite_exercises">Bài tập cơ bản yêu thích</string>
+    <string name="no_exercises_for_muscle">Không tìm thấy bài tập cơ bản nào cho nhóm cơ %s</string>
+    <string name="no_favorite_exercises">Bạn chưa thêm bài tập cơ bản yêu thích nào</string>
+    <string name="add_exercise">Thêm bài tập</string>
+
+    <!-- Muscle Model -->
+    <string name="front_view">Mặt trước</string>
+    <string name="back_view">Mặt sau</string>
+    <string name="tap_to_select_muscle">Chạm vào một nhóm cơ</string>
+    <string name="selected_muscle_group">Nhóm cơ được chọn</string>
+    <string name="no_muscle_selected">Chưa chọn nhóm cơ nào</string>
+    <string name="exercises_for_muscle">Bài tập cho nhóm cơ này</string>
+    <string name="no_exercises_for_selected_muscle">Không có bài tập cho nhóm cơ này</string>
+    <string name="muscle_model_front">mô hình cơ bắp mặt trước</string>
+    <string name="muscle_model_back">mô hình cơ bắp mặt sau</string>
+
+    <!-- Dialog Strings -->
+    <string name="edit_set">Sửa bộ tập</string>
+    <string name="weight_eg">vd: 65,5</string>
+    <string name="reps_eg">vd: 12</string>
+    <string name="mark_as_completed">Đánh dấu hoàn thành</string>
+    <string name="save">Lưu</string>
+    <string name="workout_complete_message">Tuyệt vời! Bạn đã hoàn thành buổi tập.</string>
+    <string name="total_reps">Số lần</string>
+    <string name="close">Đóng</string>
+    <string name="view_details">Xem chi tiết</string>
+    <string name="discard">Hủy bỏ</string>
+    <string name="cancel">Hủy</string>
+
+    <!-- Error Messages -->
+    <string name="error_creating_routine">Không thể tạo mới bài tập</string>
+    <string name="error_updating_routine">Không thể cập nhật bài tập</string>
+    <string name="error_deleting_routine">Không thể xóa bài tập</string>
+    <string name="error_creating_default_routines">Không thể tạo bài tập mặc định</string>
+    <string name="error_starting_workout">Không thể bắt đầu buổi tập</string>
+    <string name="error_completing_workout">Không thể hoàn thành buổi tập</string>
+    <string name="error_deleting_workout">Không thể xóa buổi tập</string>
+    <string name="error_invalid_workout_id">ID buổi tập không hợp lệ</string>
+    <string name="error_no_active_workout">Không có buổi tập đang diễn ra</string>
+    <string name="error_discarding_workout">Không thể hủy buổi tập</string>
+    <string name="error_loading_data">Đã xảy ra lỗi khi tải dữ liệu</string>
+    <string name="error_saving_routine">Lỗi khi lưu bài tập</string>
+    <string name="error_invalid_input">Dữ liệu đầu vào không hợp lệ</string>
+    <string name="error_saving_workout">Lỗi khi lưu buổi tập</string>
+    <string name="error_workout_not_found">Không tìm thấy buổi tập</string>
+
+    <!-- Actions -->
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_sort">Sắp xếp</string>
+    <string name="action_filter">Lọc</string>
+    <string name="action_create_routine">Tạo bài tập mới</string>
+
+    <!-- Search related -->
+    <string name="no_search_results">Không có kết quả tìm kiếm cho \"%s\"</string>
+
+    <!-- Misc -->
+    <string name="weight_kg">%.1f kg</string>
+    <string name="not_available">Không có thông tin</string>
+
+    <!-- Transition Names -->
+    <string name="transition_exercise_image" translatable="false">exercise_image_transition</string>
+
+    <!-- Add these missing strings -->
+    <string name="additional_options">Tùy chọn bổ sung</string>
+    <string name="search_exercise">Tìm kiếm bài tập</string>
+    <string name="no_exercises_found">Không tìm thấy bài tập phù hợp</string>
+    <string name="add_custom_exercise">Thêm bài tập tùy chỉnh</string>
+    <string name="add">Thêm</string>
+    <string name="all_exercises">Tất cả bài tập</string>
+    <string name="favorites">Yêu thích</string>
+    <string name="muscle_model">Mô hình cơ bắp</string>
+    <string name="instructions">Hướng dẫn thực hiện</string>
+    <string name="watch_instructions">Xem hướng dẫn video</string>
+    <string name="favorite_exercise">Yêu thích bài tập</string>
+
+    <string name="muscle_model_instruction">Chạm vào một phần cơ thể để xem thông tin chi tiết và các bài tập liên quan</string>
+    <string name="muscle_description_placeholder">Mô tả chi tiết về nhóm cơ này sẽ được hiển thị ở đây</string>
+    <string name="recommended_exercises">Bài tập được đề xuất</string>
+    <string name="view_all_exercises">Xem tất cả bài tập</string>
+    <string name="muscle_group_image">Hình ảnh nhóm cơ</string>
+    <string name="selected">Đã chọn</string>
+
+    <string name="sort_name_desc">Tên (Z-A)</string>
+    <string name="sort_difficulty_asc">Độ khó (Tăng dần)</string>
+    <string name="sort_difficulty_desc">Độ khó (Giảm dần)</string>
+    <string name="title_workout_summary">Tổng kết buổi tập</string>
+
+    <!-- Navigation titles -->
+    <string name="menu_workout_history">Lịch sử tập luyện</string>
+    <string name="title_exercise_list">Danh sách bài tập</string>
+
+    <!-- Muscle groups array for exercises -->
+    <string-array name="muscle_groups">
+        <item>Chest</item>
+        <item>Back</item>
+        <item>Shoulders</item>
+        <item>Arms</item>
+        <item>Abs</item>
+        <item>Legs</item>
+        <item>Full Body</item>
+    </string-array>
 </resources>
